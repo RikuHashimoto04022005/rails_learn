@@ -1,0 +1,52 @@
+// application.scss
+
+// Bootstrapをインポート
+@import "bootstrap";
+
+// ベーススタイル
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+// 投稿一覧のスタイル
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.post p {
+    font-size: 1em;
+}
+
+// ボタンスタイル
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+// フォームスタイル
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
