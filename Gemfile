@@ -33,7 +33,7 @@ gem "bootsnap", require: false
 
 gem "bootstrap", "~> 5.0.0"
 gem "sassc-rails"
-gem "carrierwave", "~> 2.0"
+gem "carrierwave", "~> 3.0"
 
 
 
