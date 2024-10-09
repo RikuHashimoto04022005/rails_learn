@@ -33,6 +33,8 @@ gem "bootsnap", require: false
 
 gem "bootstrap", "~> 5.0.0"
 gem "sassc-rails"
+gem "carrierwave", "~> 2.0"
+
 
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]

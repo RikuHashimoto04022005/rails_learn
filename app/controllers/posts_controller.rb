@@ -42,6 +42,6 @@ class PostsController < ApplicationController
     private
 
     def post_params
-        params.require(:post).permit(:title, :content)  # Strong Parametersで安全な属性のみ許可
+        params.require(:post).permit(:title, :content, :image)  # Strong Parametersで安全な属性のみ許可
     end
 end

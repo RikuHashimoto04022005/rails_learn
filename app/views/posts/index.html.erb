@@ -8,6 +8,11 @@
             <li>
                 <h2><%= link_to post.title, post %></h2>
                 <p><%= post.content %></p>
+                <% if post.image.attached? %>
+                    <%= image_tag post.image, size: "150x150" %><br>
+                <% else %>
+                    <img src="http://placehold.jp/150x150"><br>
+                <% end %>
 
                 <%= button_to '削除', post_path(post), method: :delete, data: { confirm: '本当にこの投稿を削除しますか？' }, class: 'btn btn-danger btn-custom' %>
             </li>
